@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 
-# starting and ending points
 x1, y1 = 2, 3
 x2, y2 = 10, 8
 
@@ -20,7 +19,6 @@ y_points = []
 
 print("Step\tX\tY\tRounded X\tRounded Y")
 
-# simple loop (no underscore)
 for i in range(steps + 1):
     xr = round(x)
     yr = round(y)
@@ -34,7 +32,6 @@ for i in range(steps + 1):
     y = y + y_inc
 
 
-# draw the line
 plt.plot(x_points, y_points, marker='o')
 plt.xlabel("X-axis")
 plt.ylabel("Y-axis")
