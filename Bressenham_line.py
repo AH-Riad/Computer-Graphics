@@ -9,7 +9,7 @@ y = y1
 dx = x2 - x1
 dy = y2 - y1
 
-p = 2 * dy - dx   # decision parameter
+p = 2 * dy - dx  
 
 x_points = []
 y_points = []
@@ -22,7 +22,7 @@ for i in range(dx + 1):
     x_points.append(x)
     y_points.append(y)
 
-    x = x + 1   # always move in x direction
+    x = x + 1  
 
     if p < 0:
         p = p + 2 * dy
